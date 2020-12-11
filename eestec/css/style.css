@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #FAF4F2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
+
+nav {
+    max-width: 1518px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 60px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation ul li {
+    margin-right: 25px;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav div:last-child {
+    margin-left: auto;
+}
+
+.callToAction a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+.borderButton {
+    padding: 15px 30px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+.headerContent {
+    max-width: 580px;
+}
+
+.headerContent h1 {
+    font-size: 81px;
+    line-height: 88px;
+    margin-top: 0px;
+    margin-bottom: 58px;
+}
+
+.headerContent p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.headerContent a {
+    background: #E76F51;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 30px;
+}

@@ -9,12 +9,16 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Archivo Black', sans-serif;
 }
 
 header {
-    width: 100vw;
     height: 100vh;
     background-image: url(../images/header.jpg);
     background-size: cover;
@@ -91,13 +95,145 @@ nav div:last-child {
 }
 
 .headerContent a {
-    background: #E76F51;
+    background: #d75838;
     font-size: 18px;
     padding: 15px 30px;
     border-radius: 25px;
     color: #fff;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
     display: inline-block;
     margin-top: 30px;
+}
+
+section {
+    padding: 50px 0;
+    width: 80%;
+    margin: auto;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -170px;
+    flex-wrap: wrap;
+}
+
+.activityBox {
+    color: #454545;
+    flex: 1;
+    padding: 20px;
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: 8px;
+}
+
+.activityBox h2 {
+    font-weight: 400;
+}
+
+.activityBox p {
+    font-weight: 300;
+}
+
+.activityBox img {
+    height: auto;
+    width: 30%;
+}
+
+.grey {
+    color: #454545;
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore h1 {
+    font-size: 32px;
+}
+
+.exploreCards {
+    display: flex;
+}
+
+.exploreCard {
+    margin: 8px;
+    border-radius: 20px;
+    background: white;
+    padding: 32px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.exploreCard img {
+    width: 90%;
+}
+
+.exploreCard p {
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.exploreCard a {
+    font-size: 16px;
+    text-decoration: none;
+    background: #d75838;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+    transition: all ease-in-out 0.2s;
+}
+
+.exploreCard a:hover {
+    opacity: 90%;
+}
+
+.footer {
+    padding: 20px 0;
+    margin-top: 60px;
+    background: #f8e1db;
+    width: 100%;
+    border-radius: 200px 200px 0 0;
+}
+
+.footerContent {
+    display: flex;
+}
+
+.footerContent .firstBox {
+    flex: 3;
+    margin: 8px;
+    padding: 0 20px;
+}
+
+.footerContent .firstBox p {
+    font-weight: 300;
+    margin-top: 18px;
+    width: 90%;
+    
+}
+
+.footerContent .box {
+    flex: 1;
+    margin: 8px;
+}
+
+.footerContent .box .links {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContent .box .links a {
+    margin-bottom: 6px;
+    font-weight: 300;
+    text-decoration: none;
+    color: unset;
 }
